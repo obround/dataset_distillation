@@ -1,5 +1,5 @@
 # dataset_distillation
-Implementation of the [dataset distillation algorithm from Dataset Distillation by Wang et al.](https://arxiv.org/abs/1811.10959).
+Implementation of the [dataset distillation algorithm from Dataset Distillation by Wang et al](https://arxiv.org/abs/1811.10959). The notebook is well-documented and easily extensible to different models/datasets.
 
 ## Overview
 For a fixed model and corresponding dataset, we generate a significantly smaller synthetic dataset such that the model can achieve similar results on the new dataset. Wang et al. outline the following algorithm for this:
