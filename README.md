@@ -1,5 +1,5 @@
 # dataset_distillation
-Implementation of the [dataset distillation algorithm from Dataset Distillation by Wang et al](https://arxiv.org/abs/1811.10959). The notebook is well-documented and easily extensible to different models/datasets.
+Implementation of the [dataset distillation algorithm from Dataset Distillation by Wang et al](https://arxiv.org/abs/1811.10959). The notebook is well-documented and easily extensible to different models/datasets. I implemented the algorithm using Tensorflow as well, however, it proved to be a huge headache to get working due to the clunkiness of TensorFlow's gradient tapes, and additional reasons outlined in the overview (which is why I opted to use Pytorch instead).
 
 ## Overview
 For a fixed model and corresponding dataset, we generate a significantly smaller synthetic dataset such that the model can achieve similar results on the new dataset. Wang et al. outline the following algorithm for this:
